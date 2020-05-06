@@ -1,0 +1,76 @@
+@import 'normalize';
+
+//=====Fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+//font-family: 'Montserrat', sans-serif;
+
+//===== Colors
+$white: #fff;
+$black: #000;
+$dark: #2B3037;
+$light: #f9f9f9;
+$gold: #b59b4a;
+
+:root{
+  font-size: 10px;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.benic{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6rem;
+}
+
+.container{
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+%title{
+  font-size: 3.2rem;
+  font-weight: 700;
+  letter-spacing: .5rem;
+  text-transform: uppercase;
+
+  @media(max-width: 600px){
+    font-size: 2.4rem;
+  }
+
+  @media(max-width: 420px){
+    font-size: 2rem;
+  }
+}
+
+%subtitle{
+  font-size: 2.4rem;
+  line-height: 1.5;
+  font-weight: 600;
+  letter-spacing: .2rem;
+
+  @media(max-width: 600px){
+    font-size: 1.8rem;
+  }
+
+  @media(max-width: 420px){
+    font-size: 1.7rem;
+  }
+}
+
+%text{
+  font-size: 1.8rem;
+  line-height: 1.5;
+
+  @media(max-width: 600px){
+    font-size: 1.6rem;
+  }
+
+  @media(max-width: 420px){
+    font-size: 1.5rem;
+  }
+}
