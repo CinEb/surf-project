@@ -9,10 +9,6 @@
   font-style: normal;
   font-display: block;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> a732b3ef2563fa03fddc1eb937897dbb0823737e
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
@@ -55,15 +51,12 @@
 .icon-briefcase:before {
   content: "\f0b1";
 }
-<<<<<<< HEAD
 .icon-group:before {
   content: "\f0c0";
 }
 .icon-users:before {
   content: "\f0c0";
 }
-=======
->>>>>>> a732b3ef2563fa03fddc1eb937897dbb0823737e
 .icon-bars:before {
   content: "\f0c9";
 }
