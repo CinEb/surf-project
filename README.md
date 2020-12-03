@@ -17,7 +17,8 @@ npm run build
 
 ### If you want to compile and deploy in other repository vue.config.js
 
+```
 publicPath: process.env.NODE_ENV === 'production'
-    ? '/your-repository/folder/'  	
-    : './',
+    ? '/your-repository/folder/'	/*change to your repository*/	
+    : './',				/*default root repository for serve mode*/
 ```
