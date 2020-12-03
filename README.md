@@ -15,7 +15,7 @@ npm run serve
 npm run build
 ```
 
-### If you want to compile and deploy in other repository vue.config.js
+### If you want to compile and deploy in other repository use vue.config.js
 
 ```
 publicPath: process.env.NODE_ENV === 'production'
